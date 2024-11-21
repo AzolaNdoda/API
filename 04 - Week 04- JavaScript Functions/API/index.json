@@ -1,0 +1,75 @@
+[
+    {
+        "firstName": "Azola",
+        "lastName": "Ndoda",
+        "favHobby": "Reading",
+        "Criminal": false,
+        "dreamCars": [
+            {
+                "carName": "Lamborghini Truck",
+                "carColor": "Black"
+            },
+            {
+                "carName": "Jeep Wrangler",
+                "carColor": "Matte Black"
+            }
+        ]
+        
+    },
+    {
+        "firstName": "Alulutho",
+        "lastName": "Dumani",
+        "favHobby": "Dog Walking",
+        "Criminal": true,
+        "dreamCars": [
+            {
+                "carName": "Audi A1",
+                "carColor": "Black"
+            },
+            {
+                "carName": "BMW X6",
+                "carColor": "Charcoal"
+            }
+        ]
+        
+    },
+    {
+        "firstName": "Sbahle",
+        "lastName": "Mzobe",
+        "favHobby": "Sleeping",
+        "Criminal": false,
+        "dreamCars": [
+            {
+                "carName": "Bentley bentayga",
+                "carColor": "Purple"
+            },
+            {
+                "carName": "Mercedes Benz",
+                "carColor": "Green"
+            }
+        ]
+        
+    },
+    {
+        "firstName": "Moesha",
+        "lastName": "Hlongwane",
+        "favHobby": "Watching Youtube Videos",
+        "Criminal": true,
+        "dreamCars": [
+            {
+                "carName": "BMW M8",
+                "carColor": "Black"
+            },
+            {
+                "carName": "Ford Defender",
+                "carColor": "Black"
+            }
+        ]
+        
+    }
+  
+        
+    
+    
+   
+]

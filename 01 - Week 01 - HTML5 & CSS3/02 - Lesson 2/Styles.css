@@ -1,0 +1,17 @@
+/* Basic Reset */
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: aquamarine;
+    background-image: url(Images/istockphoto-1602458524-1024x1024.jpg);
+    padding: 30px;
+
+}

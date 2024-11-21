@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Form</title>
+
+    <!--Creating an HTML form -->
+</head>
+    <!-- Internal CSS -->
+     <style>
+        body{
+        
+        form{
+            border: 5px solid black;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: 1 auto;
+        }
+        input, select{
+            display: block;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+        input[type="radio"]{
+            display: inline;
+            width: 100px;
+        }
+        input[type="text"]{
+            background-color: rgb(240, 237, 237);
+        }
+    }
+     </style>
+<body>
+    <h1>Personal Details Form</h1>
+
+    <!-- Create a form that has these following fields; First Name, Last Name, Gender, Date of birth and Email-->
+     <form method="post" action="https://formspree.io/f/xpwzpzrd">
+        <!-- First Name -->
+         <label for="name" name="first_name">First Name:</label>
+         <input type="text" name="first_name" placeholder="first name">
+         <br>
+
+         <!-- Last Name -->
+          <label for="name" name="last_name">Last Name:</label>
+          <input type="text" name="last_name" placeholder="last name">
+          <br>
+
+          <!-- Gender-->
+           <label for="gender" name="gender">Your Gender:</label><br>
+           <input type="radio" name="gender" value="Female"> <label>Female</label><br>
+           <input type="radio" name="gender" value="Male"> <label>Male</label><br>
+           <input type="radio" name="gender" value="Not willing to disclose"> <label>Not willing to disclose</label><br>
+
+           <!-- Date of birth -->
+            <label for="date_of_birth" name="date_of_birth">Date of Birth:</label>
+            <input type="month" name="date_of_birth" placeholder="D.O.B">
+            <br>
+
+            <!-- Email address -->
+             <label for="Email" name="email">Email Address:</label>
+             <input type="email" name="email" placeholder="name@email.com">
+             <br>
+
+            <!-- Submit Button-->
+             <button type="submit">Submit Form</button>
+
+            
+     </form>
+
+     <form method="get" action="http://httpbin.org/get">
+        <input type="search" name="search_name">
+        <button type="submit">Search</button>
+    
+     </form>
+
+    
+</body>
+</html>
